@@ -2,9 +2,9 @@
 y luego mostrarlo por 'alert' al presionar el botón  'MOSTRAR'*/
 function Mostrar()
 {
-    var nombre; 
+    var nombre;
     nombre=prompt("ingrese su nombre");
-    alert ("su nombre es " + nombre);
+    alert("su nombre es "+nombre);
 	
 }
 
