@@ -7,12 +7,12 @@ function SacarResto()
     var divisor;
     var resto;
 
-    dividendo=document.getElementById("numeroDividendo").value;
-    divisor=document.getElementById("numeroDivisor").value;
+    dividendo=parseInt(document.getElementById("numeroDividendo").value);
+    divisor=parseInt(document.getElementById("numeroDivisor").value);
 
-    resto=dividendo % divisor
+    resto=dividendo % divisor;
+    alert("el resto es " + resto); 
 
-    alert ("el resto es " + resto); 
 
 	
 }

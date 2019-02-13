@@ -8,11 +8,10 @@ function sumar()
     var suma;
 
     numero1=parseInt(document.getElementById("numeroUno").value);
-	numero2=parseInt(document.getElementById("numeroDos").value);
-    suma= numero1 + numero2;
-
-    alert ("la suma es " + suma);
-	
+    numero2=parseInt(document.getElementById("numeroDos").value);
+    suma=numero1 + numero2;
+    
+	alert("la suma es " + suma);
 	
 }
 
@@ -20,12 +19,13 @@ function restar()
 {var numero1;
     var numero2;
     var resta;
-// SE PUEDE PONER PRESEINT PERO NO ES NECESARIO
-  numero1=(document.getElementById("numeroUno").value);
-	numero2=(document.getElementById("numeroDos").value);
-    resta= numero1 - numero2;
 
-    alert("la resta es " + resta);
+    numero1=parseInt(document.getElementById("numeroUno").value);
+    numero2=parseInt(document.getElementById("numeroDos").value);
+    resta=numero1 - numero2;
+    
+	alert("la resta es " + resta);
+	
 
 	
 }
@@ -35,12 +35,12 @@ function multiplicar()
     var numero2;
     var multiplicar;
 
-  numero1=(document.getElementById("numeroUno").value);
-	numero2=(document.getElementById("numeroDos").value);
-    multiplicar= numero1 * numero2;
-
-    alert("la multiplicacion es " + multiplicar);
-
+    numero1=parseInt(document.getElementById("numeroUno").value);
+    numero2=parseInt(document.getElementById("numeroDos").value);
+    multiplicar=numero1 * numero2;
+    
+	alert("la suma es " + multiplicar);
+	
 	
 }
 
@@ -49,12 +49,14 @@ function dividir()
     var numero2;
     var dividir;
 
-  numero1=(document.getElementById("numeroUno").value);
-	numero2=(document.getElementById("numeroDos").value);
-    dividir= numero1 / numero2;
+    numero1=parseInt(document.getElementById("numeroUno").value);
+    numero2=parseInt(document.getElementById("numeroDos").value);
+    dividir=numero1 / numero2;
+    
+	alert("la suma es " + dividir);
+	
 
-    alert("la division es " + dividir);
-
+   
 	
 }
 
