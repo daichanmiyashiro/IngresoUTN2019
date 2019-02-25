@@ -1,13 +1,15 @@
 function Mostrar()
 {
+    var edad;
+    
+    edad=parseInt(document.getElementById("edad").value);
+
+    if(edad==15)
+    {alert("niña bonitaa");}
+    
+
+   
 //tomo la edad  
-var edad;
-
-edad=parseInt(document.getElementById("edad").value);
-
-if(edad==15)
-{alert("niña bonita");}
-
 
 
 
